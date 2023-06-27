@@ -3,7 +3,7 @@
 //  B5 Project
 //
 //  Created by Mikela Bandoma on 6/27/23.
-//
+// hiii guyshfdhdtdydy
 
 import SwiftUI
 
@@ -13,7 +13,8 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello")
+            Text("Hello")
         }
         .padding()
     }
