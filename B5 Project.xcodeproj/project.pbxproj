@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843C89D72A4E4672000DD917 /* Gliker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843C89D62A4E4672000DD917 /* Gliker-Regular.ttf */; };
 		845A6E4D2A4B88F400B7F67D /* B5_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */; };
 		845A6E4F2A4B88F400B7F67D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A6E4E2A4B88F400B7F67D /* ContentView.swift */; };
 		845A6E512A4B88F600B7F67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845A6E502A4B88F600B7F67D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843C89D62A4E4672000DD917 /* Gliker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gliker-Regular.ttf"; path = "../../../../Downloads/Gliker-Regular.ttf"; sourceTree = "<group>"; };
 		845A6E492A4B88F400B7F67D /* B5 Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "B5 Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_ProjectApp.swift; sourceTree = "<group>"; };
 		845A6E4E2A4B88F400B7F67D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		845A6E522A4B88F600B7F67D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				843C89D62A4E4672000DD917 /* Gliker-Regular.ttf */,
 				845A6E532A4B88F600B7F67D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C89D72A4E4672000DD917 /* Gliker-Regular.ttf in Resources */,
 				845A6E542A4B88F600B7F67D /* Preview Assets.xcassets in Resources */,
 				845A6E512A4B88F600B7F67D /* Assets.xcassets in Resources */,
 			);

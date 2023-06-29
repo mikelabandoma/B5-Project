@@ -7,21 +7,67 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello")
-            Text("Hello")
-        }
-        .padding()
-    }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+
+struct ContentView: View {
+    
+    
+    @State var textFieldText: String = ""
+    
+    var body: some View {
+        NavigationView {
+            ZStack {
+                Color.init(red: 1, green: 0.8901960784313725, blue: 0.8784313725490196)
+                    .edgesIgnoringSafeArea(.all)
+            
+                
+                VStack {
+                    Text("WELCOME TO ARTEMIS. LET'S GET STARTED.")
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+                        .font(.largeTitle)
+                        .foregroundColor(Color("pinkOrange"))
+                    
+                    TextField ("ENTER FIRST NAME", text: $textFieldText)
+                        .padding ()
+                        .background(Color("peachyPink"))
+                        .cornerRadius(10)
+                        .foregroundColor(Color("pinkOrange"))
+                        .font(.headline)
+                    
+                    
+                    Button(action: {
+                        
+                        
+                    }, label: {
+                        Text ("LET'S GO!".uppercased())
+                            .padding ()
+                            .frame (maxWidth:.infinity)
+                            .background(Color("pinkOrange"))
+                            .cornerRadius(10)
+                            .foregroundColor(.white)
+                            .font(.headline)
+                        
+                            
+                    })
+                }
+                .padding(50)
+                
+            }
+           
+            ZStack {
+                Color.pink
+                    .edgesIgnoringSafeArea(.all)
+            }
+        }
+        
+        
+    }
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
