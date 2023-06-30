@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84412FF02A4F54C400E9FDF8 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412FEF2A4F54C400E9FDF8 /* Resources.swift */; };
 		845A6E4D2A4B88F400B7F67D /* B5_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */; };
 		845A6E4F2A4B88F400B7F67D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A6E4E2A4B88F400B7F67D /* ContentView.swift */; };
 		845A6E512A4B88F600B7F67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845A6E502A4B88F600B7F67D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84412FEF2A4F54C400E9FDF8 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		845A6E492A4B88F400B7F67D /* B5 Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "B5 Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_ProjectApp.swift; sourceTree = "<group>"; };
 		845A6E4E2A4B88F400B7F67D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				BD3449F32A4F1FA800B72E88 /* ArtemisMainPage.swift */,
 				845A6E4E2A4B88F400B7F67D /* ContentView.swift */,
 				BD3449F52A4F293D00B72E88 /* WomansSpotlight.swift */,
+				84412FEF2A4F54C400E9FDF8 /* Resources.swift */,
 				BD3449F92A4F2BD900B72E88 /* QuoteOfTheDay.swift */,
 				845A6E502A4B88F600B7F67D /* Assets.xcassets */,
 				845A6E522A4B88F600B7F67D /* Preview Content */,
@@ -167,6 +170,7 @@
 			files = (
 				BD3449F42A4F1FA800B72E88 /* ArtemisMainPage.swift in Sources */,
 				845A6E4F2A4B88F400B7F67D /* ContentView.swift in Sources */,
+				84412FF02A4F54C400E9FDF8 /* Resources.swift in Sources */,
 				845A6E4D2A4B88F400B7F67D /* B5_ProjectApp.swift in Sources */,
 				BD3449F82A4F294E00B72E88 /* Info.swift in Sources */,
 				BD3449FA2A4F2BD900B72E88 /* QuoteOfTheDay.swift in Sources */,
