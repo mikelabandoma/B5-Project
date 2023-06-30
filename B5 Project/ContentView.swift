@@ -15,6 +15,7 @@ struct ContentView: View {
     @State var textFieldText: String = ""
     
     var body: some View {
+        
         NavigationView {
             ZStack {
                 Color.init(red: 1, green: 0.8901960784313725, blue: 0.8784313725490196)
@@ -23,10 +24,10 @@ struct ContentView: View {
                 
                 VStack {
                     Text("WELCOME TO ARTEMIS. LET'S GET STARTED.")
-                        .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                         .font(.largeTitle)
                         .foregroundColor(Color("pinkOrange"))
+                        //.font(.custom("Gilker-Regular", size: 10))
                     
                     TextField ("ENTER FIRST NAME", text: $textFieldText)
                         .padding ()
@@ -52,6 +53,20 @@ struct ContentView: View {
                     })
                 }
                 .padding(50)
+                
+                /*
+        init() {
+            for familyName in UIFont.familyNames {
+                print(familyName)
+                        
+                for fontName in UIFont.fontNames(forFamilyName: familyName) {
+                            
+                    print("-- \(fontName)")
+                }
+            }
+        }
+                 */
+                //
                 
             }
            

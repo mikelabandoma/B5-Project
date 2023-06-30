@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843C89D72A4E4672000DD917 /* Gliker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843C89D62A4E4672000DD917 /* Gliker-Regular.ttf */; };
 		845A6E4D2A4B88F400B7F67D /* B5_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */; };
 		845A6E4F2A4B88F400B7F67D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A6E4E2A4B88F400B7F67D /* ContentView.swift */; };
 		845A6E512A4B88F600B7F67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845A6E502A4B88F600B7F67D /* Assets.xcassets */; };
 		845A6E542A4B88F600B7F67D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845A6E532A4B88F600B7F67D /* Preview Assets.xcassets */; };
+		BDE49F7B2A4E86C6003F6F2A /* Gliker-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BDE49F7A2A4E86C6003F6F2A /* Gliker-Regular.woff */; };
+		BDE49F7D2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE49F7C2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		843C89D62A4E4672000DD917 /* Gliker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gliker-Regular.ttf"; path = "../../../../Downloads/Gliker-Regular.ttf"; sourceTree = "<group>"; };
 		845A6E492A4B88F400B7F67D /* B5 Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "B5 Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_ProjectApp.swift; sourceTree = "<group>"; };
 		845A6E4E2A4B88F400B7F67D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		845A6E502A4B88F600B7F67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845A6E532A4B88F600B7F67D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDE49F762A4E844D003F6F2A /* B5-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "B5-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BDE49F7A2A4E86C6003F6F2A /* Gliker-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gliker-Regular.woff"; sourceTree = "<group>"; };
+		BDE49F7C2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 		845A6E4B2A4B88F400B7F67D /* B5 Project */ = {
 			isa = PBXGroup;
 			children = (
+				BDE49F762A4E844D003F6F2A /* B5-Project-Info.plist */,
 				845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */,
 				845A6E4E2A4B88F400B7F67D /* ContentView.swift */,
 				845A6E502A4B88F600B7F67D /* Assets.xcassets */,
@@ -64,10 +68,19 @@
 		845A6E522A4B88F600B7F67D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				843C89D62A4E4672000DD917 /* Gliker-Regular.ttf */,
 				845A6E532A4B88F600B7F67D /* Preview Assets.xcassets */,
+				BDE49F722A4E831D003F6F2A /* Fonts */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDE49F722A4E831D003F6F2A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BDE49F7A2A4E86C6003F6F2A /* Gliker-Regular.woff */,
+				BDE49F7C2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843C89D72A4E4672000DD917 /* Gliker-Regular.ttf in Resources */,
+				BDE49F7D2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf in Resources */,
+				BDE49F7B2A4E86C6003F6F2A /* Gliker-Regular.woff in Resources */,
 				845A6E542A4B88F600B7F67D /* Preview Assets.xcassets in Resources */,
 				845A6E512A4B88F600B7F67D /* Assets.xcassets in Resources */,
 			);
@@ -274,6 +288,8 @@
 				DEVELOPMENT_TEAM = NV9GXY9C63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "B5-Project-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Artemis needs location on in order to use map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +319,8 @@
 				DEVELOPMENT_TEAM = NV9GXY9C63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "B5-Project-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Artemis needs location on in order to use map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
