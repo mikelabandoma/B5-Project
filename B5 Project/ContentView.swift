@@ -13,6 +13,8 @@ struct ContentView: View {
     
     
     @State var textFieldText: String = ""
+    @State private var name = ""
+    @State private var showLoginScreen = false
     
     var body: some View {
         
@@ -30,27 +32,28 @@ struct ContentView: View {
                         //.font(.custom("Gilker-Regular", size: 10))
                     
                     TextField ("ENTER FIRST NAME", text: $textFieldText)
-                        .padding ()
+                        .padding()
                         .background(Color("peachyPink"))
                         .cornerRadius(10)
                         .foregroundColor(Color("pinkOrange"))
                         .font(.headline)
                     
+                    Button("LET'S GO!".uppercased()) {
+                        //Go to menu
+                    }
+                    .padding()
+                    .frame (maxWidth:.infinity)
+                    .background(Color("pinkOrange"))
+                    .cornerRadius(10)
+                    .foregroundColor(.white)
+                    .font(.headline)
                     
-                    Button(action: {
-                        
-                        
-                    }, label: {
-                        Text ("LET'S GO!".uppercased())
-                            .padding ()
-                            .frame (maxWidth:.infinity)
-                            .background(Color("pinkOrange"))
-                            .cornerRadius(10)
-                            .foregroundColor(.white)
-                            .font(.headline)
-                        
-                            
-                    })
+                    NavigationLink{
+                        (ArtemisMainPage())
+                    } label: {
+                        Text("LET'S GO!")
+                    }
+                    }
                 }
                 .padding(50)
                 
@@ -85,4 +88,3 @@ struct ContentView: View {
             ContentView()
         }
     }
-}
