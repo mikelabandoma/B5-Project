@@ -48,7 +48,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.headline)
                     
-                    NavigationLink{
+                    NavigationLink {
                         (ArtemisMainPage())
                     } label: {
                         Text("LET'S GO!")
