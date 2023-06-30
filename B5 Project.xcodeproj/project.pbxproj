@@ -16,6 +16,7 @@
 		BD3449F62A4F293D00B72E88 /* WomansSpotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3449F52A4F293D00B72E88 /* WomansSpotlight.swift */; };
 		BD3449F82A4F294E00B72E88 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3449F72A4F294E00B72E88 /* Info.swift */; };
 		BD3449FA2A4F2BD900B72E88 /* QuoteOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3449F92A4F2BD900B72E88 /* QuoteOfTheDay.swift */; };
+		BD73F0D52A4F6560006C8CCF /* MapFinal in Resources */ = {isa = PBXBuildFile; fileRef = BD73F0D42A4F655F006C8CCF /* MapFinal */; };
 		BDE49F7B2A4E86C6003F6F2A /* Gliker-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BDE49F7A2A4E86C6003F6F2A /* Gliker-Regular.woff */; };
 		BDE49F7D2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE49F7C2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		BD3449F52A4F293D00B72E88 /* WomansSpotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomansSpotlight.swift; sourceTree = "<group>"; };
 		BD3449F72A4F294E00B72E88 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		BD3449F92A4F2BD900B72E88 /* QuoteOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteOfTheDay.swift; sourceTree = "<group>"; };
+		BD73F0D42A4F655F006C8CCF /* MapFinal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MapFinal; sourceTree = "<group>"; };
 		BDE49F7A2A4E86C6003F6F2A /* Gliker-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gliker-Regular.woff"; sourceTree = "<group>"; };
 		BDE49F7C2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 		845A6E4B2A4B88F400B7F67D /* B5 Project */ = {
 			isa = PBXGroup;
 			children = (
+				BD73F0D42A4F655F006C8CCF /* MapFinal */,
 				845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */,
 				BD3449F32A4F1FA800B72E88 /* ArtemisMainPage.swift */,
 				845A6E4E2A4B88F400B7F67D /* ContentView.swift */,
@@ -157,6 +160,7 @@
 				BDE49F7D2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf in Resources */,
 				BDE49F7B2A4E86C6003F6F2A /* Gliker-Regular.woff in Resources */,
 				845A6E542A4B88F600B7F67D /* Preview Assets.xcassets in Resources */,
+				BD73F0D52A4F6560006C8CCF /* MapFinal in Resources */,
 				845A6E512A4B88F600B7F67D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
