@@ -69,7 +69,6 @@
 				BD3449F32A4F1FA800B72E88 /* ArtemisMainPage.swift */,
 				845A6E4E2A4B88F400B7F67D /* ContentView.swift */,
 				BD3449F52A4F293D00B72E88 /* WomansSpotlight.swift */,
-				BD3449F72A4F294E00B72E88 /* Info.swift */,
 				BD3449F92A4F2BD900B72E88 /* QuoteOfTheDay.swift */,
 				845A6E502A4B88F600B7F67D /* Assets.xcassets */,
 				845A6E522A4B88F600B7F67D /* Preview Content */,
@@ -80,6 +79,7 @@
 		845A6E522A4B88F600B7F67D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BD3449F72A4F294E00B72E88 /* Info.swift */,
 				845A6E532A4B88F600B7F67D /* Preview Assets.xcassets */,
 				BDE49F722A4E831D003F6F2A /* Fonts */,
 			);
