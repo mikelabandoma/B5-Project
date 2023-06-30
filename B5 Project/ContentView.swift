@@ -29,7 +29,7 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                         .font(.largeTitle)
                         .foregroundColor(Color("pinkOrange"))
-                        //.font(.custom("Gilker-Regular", size: 10))
+                        
                     
                     TextField ("ENTER FIRST NAME", text: $textFieldText)
                         .padding()
@@ -49,27 +49,13 @@ struct ContentView: View {
                     .font(.headline)
                     
                     NavigationLink {
-                        (WomansSpotlight())
+                        (ArtemisMainPage())
                     } label: {
                         Text("LET'S GO!")
                     }
                     }
                 }
                 .padding(50)
-                
-                /*
-        init() {
-            for familyName in UIFont.familyNames {
-                print(familyName)
-                        
-                for fontName in UIFont.fontNames(forFamilyName: familyName) {
-                            
-                    print("-- \(fontName)")
-                }
-            }
-        }
-                 */
-                //
                 
             }
            

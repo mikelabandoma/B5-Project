@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct Content: View {
+struct WomansSpotlight: View {
     
     @ObservedObject var locationManager = LocationManager()
     @State private var landmarks: [Landmark] = [Landmark]()
@@ -52,7 +52,7 @@ struct Content: View {
     
     }
 
-struct Content_Previews: PreviewProvider {
+struct WomansSpotlight_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

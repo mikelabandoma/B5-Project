@@ -1,4 +1,4 @@
-/*import SwiftUI
+import SwiftUI
 
 struct ArtemisMainPage: View {
     @State private var name = ""
@@ -20,4 +20,4 @@ struct ArtemisMainPage_Previews: PreviewProvider {
     }
 }
 
-*/
+

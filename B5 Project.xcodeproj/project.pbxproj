@@ -15,14 +15,9 @@
 		BD3449F42A4F1FA800B72E88 /* ArtemisMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3449F32A4F1FA800B72E88 /* ArtemisMainPage.swift */; };
 		BD3449F82A4F294E00B72E88 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3449F72A4F294E00B72E88 /* Info.swift */; };
 		BD3449FA2A4F2BD900B72E88 /* QuoteOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3449F92A4F2BD900B72E88 /* QuoteOfTheDay.swift */; };
+		BD73F0D72A4F6BCE006C8CCF /* WomansSpotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD73F0D62A4F6BCE006C8CCF /* WomansSpotlight.swift */; };
 		BDE49F7B2A4E86C6003F6F2A /* Gliker-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = BDE49F7A2A4E86C6003F6F2A /* Gliker-Regular.woff */; };
 		BDE49F7D2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE49F7C2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf */; };
-		E0A8FEA42A4F68CC00C5A57A /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8FEA32A4F68CC00C5A57A /* Content.swift */; };
-		E0A8FEA62A4F68D000C5A57A /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8FEA52A4F68D000C5A57A /* Landmark.swift */; };
-		E0A8FEA82A4F68D400C5A57A /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8FEA72A4F68D400C5A57A /* LandmarkAnnotation.swift */; };
-		E0A8FEAA2A4F68D700C5A57A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8FEA92A4F68D700C5A57A /* LocationManager.swift */; };
-		E0A8FEAC2A4F68DE00C5A57A /* WomansSpotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8FEAB2A4F68DE00C5A57A /* WomansSpotlight.swift */; };
-		E0A8FEAE2A4F68E200C5A57A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8FEAD2A4F68E200C5A57A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,14 +30,9 @@
 		BD3449F32A4F1FA800B72E88 /* ArtemisMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisMainPage.swift; sourceTree = "<group>"; };
 		BD3449F72A4F294E00B72E88 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		BD3449F92A4F2BD900B72E88 /* QuoteOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteOfTheDay.swift; sourceTree = "<group>"; };
+		BD73F0D62A4F6BCE006C8CCF /* WomansSpotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WomansSpotlight.swift; path = ../WomansSpotlight.swift; sourceTree = "<group>"; };
 		BDE49F7A2A4E86C6003F6F2A /* Gliker-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gliker-Regular.woff"; sourceTree = "<group>"; };
 		BDE49F7C2A4E877B003F6F2A /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
-		E0A8FEA32A4F68CC00C5A57A /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
-		E0A8FEA52A4F68D000C5A57A /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
-		E0A8FEA72A4F68D400C5A57A /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
-		E0A8FEA92A4F68D700C5A57A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		E0A8FEAB2A4F68DE00C5A57A /* WomansSpotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomansSpotlight.swift; sourceTree = "<group>"; };
-		E0A8FEAD2A4F68E200C5A57A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,17 +65,12 @@
 		845A6E4B2A4B88F400B7F67D /* B5 Project */ = {
 			isa = PBXGroup;
 			children = (
+				BD73F0D62A4F6BCE006C8CCF /* WomansSpotlight.swift */,
 				845A6E4C2A4B88F400B7F67D /* B5_ProjectApp.swift */,
-				E0A8FEAD2A4F68E200C5A57A /* MapView.swift */,
-				E0A8FEAB2A4F68DE00C5A57A /* WomansSpotlight.swift */,
 				BD3449F32A4F1FA800B72E88 /* ArtemisMainPage.swift */,
-				845A6E4E2A4B88F400B7F67D /* ContentView.swift */,
 				84412FEF2A4F54C400E9FDF8 /* Resources.swift */,
-				E0A8FEA92A4F68D700C5A57A /* LocationManager.swift */,
-				E0A8FEA72A4F68D400C5A57A /* LandmarkAnnotation.swift */,
 				BD3449F92A4F2BD900B72E88 /* QuoteOfTheDay.swift */,
-				E0A8FEA32A4F68CC00C5A57A /* Content.swift */,
-				E0A8FEA52A4F68D000C5A57A /* Landmark.swift */,
+				845A6E4E2A4B88F400B7F67D /* ContentView.swift */,
 				845A6E502A4B88F600B7F67D /* Assets.xcassets */,
 				845A6E522A4B88F600B7F67D /* Preview Content */,
 			);
@@ -184,17 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3449F42A4F1FA800B72E88 /* ArtemisMainPage.swift in Sources */,
-				E0A8FEAE2A4F68E200C5A57A /* MapView.swift in Sources */,
 				845A6E4F2A4B88F400B7F67D /* ContentView.swift in Sources */,
-				E0A8FEAC2A4F68DE00C5A57A /* WomansSpotlight.swift in Sources */,
-				E0A8FEAA2A4F68D700C5A57A /* LocationManager.swift in Sources */,
-				E0A8FEA42A4F68CC00C5A57A /* Content.swift in Sources */,
-				E0A8FEA62A4F68D000C5A57A /* Landmark.swift in Sources */,
 				84412FF02A4F54C400E9FDF8 /* Resources.swift in Sources */,
-				E0A8FEA82A4F68D400C5A57A /* LandmarkAnnotation.swift in Sources */,
 				845A6E4D2A4B88F400B7F67D /* B5_ProjectApp.swift in Sources */,
 				BD3449F82A4F294E00B72E88 /* Info.swift in Sources */,
 				BD3449FA2A4F2BD900B72E88 /* QuoteOfTheDay.swift in Sources */,
+				BD73F0D72A4F6BCE006C8CCF /* WomansSpotlight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
