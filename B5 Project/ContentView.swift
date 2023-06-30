@@ -49,7 +49,7 @@ struct ContentView: View {
                     .font(.headline)
                     
                     NavigationLink {
-                        (ArtemisMainPage())
+                        (WomansSpotlight())
                     } label: {
                         Text("LET'S GO!")
                     }
